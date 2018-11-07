@@ -16,7 +16,7 @@
 #define RND_RCC_APBxPeriphClockCmd  RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC|RCC_APB2Periph_ADC2,ENABLE)
 
 
-void initRND(void);
+
 void getRND(uint8_t *dat, uint16_t len);
 
 
